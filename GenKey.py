@@ -1,3 +1,5 @@
+from Crypto.PublicKey import DSA
+
 # 1024bit DSAで秘密鍵生成
 key = DSA.generate(bits=1024)
 dammyKey = DSA.generate(bits=1024)
